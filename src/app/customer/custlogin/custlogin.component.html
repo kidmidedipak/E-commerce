@@ -1,0 +1,27 @@
+
+
+<body>
+    
+
+    <div class="container">
+        <div class="login-box">
+            <h2>Sign in</h2>
+           
+                <div class="input-container">
+                    <label for="username">Username :</label>
+                    <input type="email"  [(ngModel)]="obj.email" placeholder="Email Or Phone Number">
+                </div>
+                <div class="input-container">
+                    <label for="password">Password : </label>
+                    <input type="password" [(ngModel)]="obj.password" placeholder="Password">
+                </div>
+                <button type="submit" (click)="login()">Sign in</button>
+                <hr>
+                <hr>
+                <a routerLink="/Register">Sign up</a><br><br>
+                <a href="">Forgot your password</a>
+        </div>
+    </div>
+    </body>
+            
+      
